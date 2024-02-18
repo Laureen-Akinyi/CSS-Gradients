@@ -1,0 +1,90 @@
+#grad1 {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(red, purple);
+}
+
+#grad2 {
+    height: 200px;
+    border-radius: 20px;
+    background-color: saddlebrown;
+    background-image: linear-gradient(to right, saddlebrown, blue);
+}
+
+p {
+    text-align: center;
+}
+
+#grad3 {
+    height: 200px;
+    background-color: yellow;
+    background-image: linear-gradient(0deg, yellow, red);
+}
+
+#grad4 {
+    height: 100px;
+    background-color: aqua;
+    background-image: linear-gradient(90deg, aqua, black);
+}
+
+#grad5 {
+    height: 150px;
+    background-color: green;
+    background-image: linear-gradient(180deg, green, pink);
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+#multiple {
+    height: 150px;
+    background-color: red;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+#multiple1 {
+    height: 210px;
+    background-color: red;
+    background-image: linear-gradient(red, orange, pink, yellow, saddlebrown, green, blue);
+}
+
+#multiple2 {
+    height: 200px;
+    background: red;
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+}
+
+#radial {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    background-image: radial-gradient(red, yellow, green);
+}
+
+#radial1 {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    background-image: radial-gradient( circle, red 5%, yellow 15%, green 60%);
+}
+
+#radial2 {
+    height: 200px;
+    background-color: red;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+#conic {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    border-radius: 50%;
+}
+
+#conic1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+    border-radius: 50%;
+}
